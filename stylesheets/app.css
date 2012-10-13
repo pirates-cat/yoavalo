@@ -5060,3 +5060,13 @@ div.progress.round .meter {
 #quick a:hover {
   text-decoration: underline;
 }
+
+/* line 134, ../sass/app.scss */
+a img {
+  outline: none;
+}
+
+/* line 138, ../sass/app.scss */
+img {
+  border: 0;
+}
