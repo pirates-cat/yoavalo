@@ -5,4 +5,5 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+  Software: vim, Git
+  Creator: Pirates de Catalunya (PIRATA.CAT)

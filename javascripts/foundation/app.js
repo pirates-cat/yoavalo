@@ -14,7 +14,7 @@
   $.fn.foundationTabs             ? $doc.foundationTabs({callback : $.foundation.customForms.appendCustomMarkup}) : null;
   $.fn.foundationTooltips         ? $doc.foundationTooltips() : null;
 
-  $('input, textarea').placeholder();
+  // $('input, textarea').placeholder();
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
   // $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'both'});
@@ -30,5 +30,4 @@
       }, 0);
     });
   }
-
 })(jQuery, this);

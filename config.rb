@@ -1,3 +1,4 @@
+require 'compass-colors'
 require 'zurb-foundation'
 # Require any additional compass plugins here.
 

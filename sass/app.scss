@@ -1,3 +1,4 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:400,700');
 // You custom settings file to override Foundation defaults
 @import "settings";
 
@@ -45,3 +46,87 @@
 // @import "foundation/components/modules/orbit";
 // @import "foundation/components/modules/reveal";
 // @import "foundation/components/modules/offcanvas";
+
+@import "compass/css3/border-radius";
+
+#content {
+	background: url(../images/background.png) center bottom no-repeat;
+	min-height: 223px;
+	padding: 1em;
+	text-align: justify;
+	& a {
+		color: darken($mainColor, 21);
+		font-weight: bold;
+	}
+	& a:hover {
+		text-decoration: underline;
+	}
+}
+
+#logo {
+	& img {
+		float: left;
+		padding: 1em;
+	}
+
+	& h1, h2, h3, h4, h5, h6, .subheader {
+		line-height: 1;
+		margin-bottom: 0;
+	}
+
+	& h1 {
+		margin-top: 0.5em;
+	}
+
+	& .subheader {
+		margin-top: 0.25em;
+	}
+}
+
+.bar {
+	background: url(../images/bright_squares.png);
+	padding: 0.5em;
+	padding-top: 0.75em;
+	@include border-radius(8px, 8px);
+	text-align: center;
+	border: solid 1px #E6E6E6;
+
+	& #social {
+		margin: 0.5em 0;
+	}
+
+	& a {
+		color: darken($mainColor, 21);
+	}
+
+	& a:hover {
+		text-decoration: underline;
+	}
+}
+
+.wrapped {
+	float: right;
+	padding-left: 1em;
+}
+
+#partidos {
+	text-align: center;
+}
+
+#quick {
+	text-align: center;
+	padding: 0.5em;
+	color: #FFF;
+	background: $mainColor;
+	@include border-radius(4px, 4px);
+	margin-top: 1em;
+
+	& a {
+		color: yellow;
+	}
+
+	& a:hover {
+		text-decoration: underline;
+	}
+
+}

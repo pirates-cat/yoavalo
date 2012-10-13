@@ -1,0 +1,2 @@
+exclude: ['sass', 'MIT-LICENSE.txt', '.gitignore', '.git', 'config.rb']
+auto: true
